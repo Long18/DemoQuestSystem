@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8524967405088167290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eae88288dc64f9cb1e40c97d86f4536, type: 3}
+  m_Name: Fame
+  m_EditorClassIdentifier: 
+  _name: Fame
+  _npcName: abc
+  _dialogue: 
+  _compeleteDialogue: 
+  _incompleteDialogue: 
+  _type: 1
+  _status: 1
+  _onDoneTask: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3485dd028e467d8d373a7c24441329, type: 3}
+  m_Name: Quest 2
+  m_EditorClassIdentifier: 
+  _id: 796ebd3330f980b498800b8180a57576
+  _tasks:
+  - {fileID: -8524967405088167290}
+  - {fileID: 2090092175985985238}
+  _status: 1
+  _onDoneQuest: {fileID: 0}
+--- !u!114 &2090092175985985238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eae88288dc64f9cb1e40c97d86f4536, type: 3}
+  m_Name: Say hello Unity
+  m_EditorClassIdentifier: 
+  _name: Say hello Unity
+  _npcName: abc
+  _dialogue: 
+  _compeleteDialogue: 
+  _incompleteDialogue: 
+  _type: 1
+  _status: 0
+  _onDoneTask: {fileID: 0}
